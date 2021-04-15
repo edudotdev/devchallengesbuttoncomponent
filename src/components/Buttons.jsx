@@ -64,7 +64,7 @@ const Buttons = () => {
       <WrapperBtnFlex width="600px">
         <WrapperBtn>
           <Code>{'<Button startIcon=”local_grocery_store” />'}</Code>
-          <Button startIcon={'local_grocery_store'} color='primary' variant='outline'>Default</Button>
+          <Button startIcon={'local_grocery_store'} color='primary'>Default</Button>
         </WrapperBtn>
         <WrapperBtn>
           <Code>{'<Button endIcon=”local_grocery_store” />'}</Code>
