@@ -7,16 +7,13 @@ import styled from 'styled-components'
 const Container = styled.div`
   display: grid;
   grid-template-columns: 250px 1fr;
-
   min-height: 100vh;
 `
 
 function App() {
   return (
     <Container>
-      <Menu />
-
-      <Buttons />
+      <Menu /> <Buttons />
     </Container>
   );
 }
